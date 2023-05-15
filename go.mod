@@ -2,7 +2,7 @@ module myapp
 
 go 1.17
 
-replace github.com/tsawler/celeritas => /celeritas
+replace github.com/tsawler/celeritas => ./celeritas
 
 require (
 	github.com/CloudyKit/jet/v6 v6.1.0
